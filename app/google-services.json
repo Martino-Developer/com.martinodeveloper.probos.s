@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "644911673404",
+    "project_id": "martino-developer",
+    "storage_bucket": "martino-developer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644911673404:android:3d2845ddfb7b3d99e89339",
+        "android_client_info": {
+          "package_name": "com.martinodeveloper.probos.s"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644911673404-tlut3rtu9jddq7i24m49t94utj9iuljt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc6cxrUQv464UFgn-7Rw5WVNxb_Qy3XLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644911673404-tlut3rtu9jddq7i24m49t94utj9iuljt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

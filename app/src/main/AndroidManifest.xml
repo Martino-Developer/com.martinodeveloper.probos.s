@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.martinodeveloper.probo">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.probo"
+        tools:targetApi="31">
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_Continue_Next"
+            android:exported="false" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_Privacy_Policy"
+            android:exported="false" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_Sport"
+            android:exported="false" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_Netflix"
+            android:exported="false" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_Movies1"
+            android:exported="false" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_Movies"
+            android:exported="false" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_Bolly"
+            android:exported="false" />
+   <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_Alt_Balaji"
+            android:exported="false" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_Channel"
+            android:exported="false" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_Cricket"
+            android:exported="false" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_Hollywood"
+            android:exported="false" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_Holly"
+            android:exported="false" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_We_Series"
+            android:exported="false" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_WWE"
+            android:exported="false" />
+
+
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_Continue"
+            android:exported="false" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_start_page"
+            android:exported="true" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_Next"
+            android:exported="true" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_Exit"
+            android:exported="true" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_more"
+            android:exported="true" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_Thank_you"
+            android:exported="true" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_Get_start_Activity"
+            android:exported="true" />
+        <activity
+            android:name="com.martinodeveloper.probo.martinodeveloper_SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+    </application>
+
+</manifest>
