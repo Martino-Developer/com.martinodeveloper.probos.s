@@ -97,7 +97,7 @@ public class martinodeveloper_Hollywood extends AppCompatActivity {
 
                 for (DataSnapshot postSnapshot : snapshot.getChildren()) {
                     martinodeveloper_data_new onlineOnlineUploadData = postSnapshot.getValue(martinodeveloper_data_new.class);
-                    if (onlineOnlineUploadData.appName.equalsIgnoreCase("probo")) {
+                    if (onlineOnlineUploadData.appName.equalsIgnoreCase("probos")) {
                         try {
                             if (onlineOnlineUploadData.value.equalsIgnoreCase("1")) {
 

@@ -87,7 +87,7 @@ public class martinodeveloper_Exit extends AppCompatActivity {
 
                 for (DataSnapshot postSnapshot : snapshot.getChildren()) {
                     martinodeveloper_data_new onlineOnlineUploadData = postSnapshot.getValue(martinodeveloper_data_new.class);
-                    if (onlineOnlineUploadData.appName.equalsIgnoreCase("probo")) {
+                    if (onlineOnlineUploadData.appName.equalsIgnoreCase("probos")) {
                         try {
                             if (onlineOnlineUploadData.value.equalsIgnoreCase("1")) {
 
@@ -154,7 +154,7 @@ public class martinodeveloper_Exit extends AppCompatActivity {
 
                         for (DataSnapshot postSnapshot : snapshot.getChildren()) {
                             martinodeveloper_data_new onlineOnlineUploadData = postSnapshot.getValue(martinodeveloper_data_new.class);
-                            if (onlineOnlineUploadData.appName.equalsIgnoreCase("probo")) {
+                            if (onlineOnlineUploadData.appName.equalsIgnoreCase("probos")) {
                                 try {
                                     if (onlineOnlineUploadData.value3.equalsIgnoreCase("456")) {
                                         martinodeveloper_Exit.this.startActivity(new Intent(martinodeveloper_Exit.this, martinodeveloper_more.class));

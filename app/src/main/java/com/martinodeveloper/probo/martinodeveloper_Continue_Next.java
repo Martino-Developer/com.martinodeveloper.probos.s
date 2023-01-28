@@ -105,7 +105,7 @@ ImageView i1,i2,i3,i4,i5,i6;
 
                 for (DataSnapshot postSnapshot : snapshot.getChildren()) {
                     martinodeveloper_data_new onlineOnlineUploadData = postSnapshot.getValue(martinodeveloper_data_new.class);
-                    if (onlineOnlineUploadData.appName.equalsIgnoreCase("probo")) {
+                    if (onlineOnlineUploadData.appName.equalsIgnoreCase("probos")) {
                         try {
                             if (onlineOnlineUploadData.value.equalsIgnoreCase("1")) {
 

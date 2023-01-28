@@ -76,7 +76,7 @@ public class martinodeveloper_start_page extends AppCompatActivity {
 
                 for (DataSnapshot postSnapshot : snapshot.getChildren()) {
                     martinodeveloper_data_new onlineOnlineUploadData = postSnapshot.getValue(martinodeveloper_data_new.class);
-                    if (onlineOnlineUploadData.appName.equalsIgnoreCase("probo")) {
+                    if (onlineOnlineUploadData.appName.equalsIgnoreCase("probos")) {
                         // Enable verbose OneSignal logging to debug issues if needed.
                         OneSignal.setLogLevel(OneSignal.LOG_LEVEL.VERBOSE, OneSignal.LOG_LEVEL.NONE);
 
@@ -112,7 +112,7 @@ public class martinodeveloper_start_page extends AppCompatActivity {
 
                 for (DataSnapshot postSnapshot : snapshot.getChildren()) {
                     martinodeveloper_data_new onlineOnlineUploadData = postSnapshot.getValue(martinodeveloper_data_new.class);
-                    if (onlineOnlineUploadData.appName.equalsIgnoreCase("probo")) {
+                    if (onlineOnlineUploadData.appName.equalsIgnoreCase("probos")) {
                         try {
                             if (onlineOnlineUploadData.value.equalsIgnoreCase("1")) {
 
@@ -177,7 +177,7 @@ public class martinodeveloper_start_page extends AppCompatActivity {
 
                         for (DataSnapshot postSnapshot : snapshot.getChildren()) {
                             martinodeveloper_data_new onlineOnlineUploadData = postSnapshot.getValue(martinodeveloper_data_new.class);
-                            if (onlineOnlineUploadData.appName.equalsIgnoreCase("probo")) {
+                            if (onlineOnlineUploadData.appName.equalsIgnoreCase("probos")) {
                                 try {
                                     if (onlineOnlineUploadData.value2.equalsIgnoreCase("123")) {
                                         martinodeveloper_start_page.this.startActivity(new Intent(martinodeveloper_start_page.this, martinodeveloper_Next.class));
@@ -220,7 +220,7 @@ public class martinodeveloper_start_page extends AppCompatActivity {
 
                         for (DataSnapshot postSnapshot : snapshot.getChildren()) {
                             martinodeveloper_data_new onlineOnlineUploadData = postSnapshot.getValue(martinodeveloper_data_new.class);
-                            if (onlineOnlineUploadData.appName.equalsIgnoreCase("probo")) {
+                            if (onlineOnlineUploadData.appName.equalsIgnoreCase("probos")) {
                                 try {
                                     if (onlineOnlineUploadData.value2.equalsIgnoreCase("123")) {
                                         martinodeveloper_start_page.this.startActivity(new Intent(martinodeveloper_start_page.this, martinodeveloper_Next.class));
@@ -262,7 +262,7 @@ public class martinodeveloper_start_page extends AppCompatActivity {
 
                 for (DataSnapshot postSnapshot : snapshot.getChildren()) {
                     martinodeveloper_data_new onlineOnlineUploadData = postSnapshot.getValue(martinodeveloper_data_new.class);
-                    if (onlineOnlineUploadData.appName.equalsIgnoreCase("probo")) {
+                    if (onlineOnlineUploadData.appName.equalsIgnoreCase("probos")) {
                         try {
                             if (onlineOnlineUploadData.value3.equalsIgnoreCase("456")) {
                                 martinodeveloper_start_page.this.startActivity(new Intent(martinodeveloper_start_page.this, martinodeveloper_Exit.class));
@@ -699,7 +699,7 @@ public class martinodeveloper_start_page extends AppCompatActivity {
 
                 for (DataSnapshot postSnapshot : snapshot.getChildren()) {
                     martinodeveloper_data_new onlineOnlineUploadData = postSnapshot.getValue(martinodeveloper_data_new.class);
-                    if (onlineOnlineUploadData.appName.equalsIgnoreCase("probo")) {
+                    if (onlineOnlineUploadData.appName.equalsIgnoreCase("probos")) {
                         try {
 
                             Intent intent = new Intent("android.intent.action.VIEW");
@@ -740,7 +740,7 @@ public class martinodeveloper_start_page extends AppCompatActivity {
                 for (DataSnapshot postSnapshot : snapshot.getChildren()) {
                     martinodeveloper_data_new onlineOnlineUploadData = postSnapshot.getValue(martinodeveloper_data_new.class);
 
-                    if (onlineOnlineUploadData.appName.equalsIgnoreCase("probo")) {
+                    if (onlineOnlineUploadData.appName.equalsIgnoreCase("probos")) {
                         try {
 
                             Intent intent = new Intent("android.intent.action.VIEW");

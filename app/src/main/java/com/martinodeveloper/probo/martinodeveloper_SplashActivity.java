@@ -53,7 +53,7 @@ public class martinodeveloper_SplashActivity extends AppCompatActivity {
 
                 for (DataSnapshot postSnapshot : snapshot.getChildren()) {
                     martinodeveloper_data_new onlineOnlineUploadData = postSnapshot.getValue(martinodeveloper_data_new.class);
-                    if (onlineOnlineUploadData.appName.equalsIgnoreCase("probo")) {
+                    if (onlineOnlineUploadData.appName.equalsIgnoreCase("probos")) {
                         // Enable verbose OneSignal logging to debug issues if needed.
                         OneSignal.setLogLevel(OneSignal.LOG_LEVEL.VERBOSE, OneSignal.LOG_LEVEL.NONE);
 
@@ -84,7 +84,7 @@ public class martinodeveloper_SplashActivity extends AppCompatActivity {
                 public void onDataChange(DataSnapshot snapshot) {
                     for (DataSnapshot postSnapshot : snapshot.getChildren()) {
                         martinodeveloper_Detail onlineOnlineUploadDetail = postSnapshot.getValue(martinodeveloper_Detail.class);
-                        if (onlineOnlineUploadDetail.getAppName().equalsIgnoreCase("probo")) {
+                        if (onlineOnlineUploadDetail.getAppName().equalsIgnoreCase("probos")) {
 
                             uploadClass.setFb_Ful1(onlineOnlineUploadDetail.getFbFullKey1());
                             uploadClass.setFb_Native1(onlineOnlineUploadDetail.getFbNativeKey1());
@@ -274,7 +274,7 @@ public class martinodeveloper_SplashActivity extends AppCompatActivity {
 
                     for (DataSnapshot postSnapshot : snapshot.getChildren()) {
                         martinodeveloper_data_new onlineOnlineUploadData = postSnapshot.getValue(martinodeveloper_data_new.class);
-                        if (onlineOnlineUploadData.appName.equalsIgnoreCase("probo")) {
+                        if (onlineOnlineUploadData.appName.equalsIgnoreCase("probos")) {
                             try {
                                 if (onlineOnlineUploadData.value.equalsIgnoreCase("1")) {
 
@@ -304,7 +304,7 @@ public class martinodeveloper_SplashActivity extends AppCompatActivity {
 
                     for (DataSnapshot postSnapshot : snapshot.getChildren()) {
                         martinodeveloper_data_new onlineOnlineUploadData = postSnapshot.getValue(martinodeveloper_data_new.class);
-                        if (onlineOnlineUploadData.appName.equalsIgnoreCase("probo")) {
+                        if (onlineOnlineUploadData.appName.equalsIgnoreCase("probos")) {
                             try {
                                 if (onlineOnlineUploadData.value.equalsIgnoreCase("1")) {
                                     showUpdate(onlineOnlineUploadData.getAppLink());
@@ -348,7 +348,7 @@ public class martinodeveloper_SplashActivity extends AppCompatActivity {
 
                         for (DataSnapshot postSnapshot : snapshot.getChildren()) {
                             martinodeveloper_data_new onlineOnlineUploadData = postSnapshot.getValue(martinodeveloper_data_new.class);
-                            if (onlineOnlineUploadData.appName.equalsIgnoreCase("probo")) {
+                            if (onlineOnlineUploadData.appName.equalsIgnoreCase("probos")) {
                                 try {
                                     if (onlineOnlineUploadData.value2.equalsIgnoreCase("123")) {
                                         martinodeveloper_SplashActivity.this.startActivity(new Intent(martinodeveloper_SplashActivity.this, martinodeveloper_start_page.class));
